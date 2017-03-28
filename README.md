@@ -1,2 +1,2 @@
-# itsdcourses
-Last Courses Design
+# coursestheme
+Courses Theme Design
