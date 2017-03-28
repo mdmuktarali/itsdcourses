@@ -1,2 +1,0 @@
-# coursestheme
-Courses Theme Design

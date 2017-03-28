@@ -8,13 +8,13 @@
 }
 .we_provide_header h2{
     text-align: center;
-    background: #36a4e4;
-    color: #fff;
-    font-family: inherit;
+    color: #333;
     text-transform: uppercase;
-    font-size: 23px;
+    font-size: 26px;
     padding-bottom: 7px;
+    font-family: 'Dosis', sans-serif;
 }
+/*
 .we_provide_header h2:before{
     background: #36a4e4;
     content: "";
@@ -26,6 +26,8 @@
     border-bottom: 1px solid #fff;
     left: 4px;
 }
+*/
+/*
 .we_provide_header h2:after{
     background: #36a4e4;
     content: "";
@@ -37,6 +39,7 @@
     border-top: 1px solid #fff;
     right: 4px;
 }
+*/
 .logo{
 
 }
@@ -58,7 +61,7 @@
     float:right;
 }
 .menu ul li a{
-    background: rgba(157, 157, 157, 0.36);
+    background: rgb(56, 164, 221);
     border: 1px solid #fff;
     color: #fff;
     padding: 10px 22px;
@@ -73,13 +76,14 @@
     background: rgba(255, 255, 255, 0.45);
     border-radius: 100px 0px 0px 0px;
     padding-left: 29px;
+    border: 1px solid rgb(255, 255, 255);
 }
 .address_book{
     float: left;
     font-size: 21px;
     margin-top: 26px;
     margin-left: 15px;
-    color: #36a4e4;
+    color: #555656;
 }
 .contact_info{}
 .contact_info ul{
@@ -90,7 +94,7 @@
 }
 .contact_info ul li{}
 .contact_info ul li i{
-    color: #36a4e4;
+    color: #555656;
     font-size: 15px;
     float: left;
     margin-right: 10px;
@@ -100,20 +104,26 @@
 .contact_info ul li p{
     text-align: right;
     margin-right: 10px;
-    color: rgba(54, 164, 228, 0.84);
+    color: #555656;
 }
 .courses_area{
-    margin-top: 55px;
+    margin-top: 30px;
 }
 .courses_left{
     background: rgba(255, 255, 255, 0.72);
+    margin-bottom:5px;
 }
 .courses_left h2{
 
 
 }
+.left_sidebar{
+    background: #ddd;
+    border: 1px solid rgb(140, 138, 138);
+    padding: 5px;
+}
 .title{
-    background: #36a4e4;
+    background: #333333;
 }
 .title h2{
     text-align: center;
@@ -127,18 +137,24 @@
 .title h2 i{
     margin-right:10px;
 }
+.right_sidebar{
+    background: #ddd;
+    border: 1px solid rgb(140, 138, 138);
+    padding: 5px;
+}
 .working_info_details{
 
 }
 .working_info_details p{
-    padding:5px;
+    padding: 5px;
+    margin-left: 8px;
 }
 .working_time{
     background: rgba(255, 255, 255, 0.72);
+    margin-bottom: 5px;
 }
 .bg{
-    background: url(img/bg.jpg)no-repeat;
-    background-size: 100%;
+    background: #ddd;
 
 }
 .social_media{
@@ -175,7 +191,7 @@
 }
 .main_content_heading h2{
     margin-bottom: 23px;
-    background: #333333;
+    background: #38a4dd;
     color: #fff;
     padding: 11px 47px;
     border-radius: 2px 2px 2px 2px;
@@ -199,9 +215,13 @@
     padding:0px 38px;
     font-family: 'Poppins', sans-serif;
 }
+.courses_list ul li a{
+    color: #333;
+
+}
 .header_logo_social_media{
     margin-top: 52px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #9c9c9c;
 }
 .form_icon{
 
@@ -245,6 +265,7 @@
 
 
 }
+
 .choose_details_link{
     text-align: right;
 }
@@ -260,7 +281,7 @@
 .choose_option{
     text-align: center;
     margin-bottom: 25px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #bfbfbf;
     padding-bottom: 8px;
 }
 .choose_option h2{
@@ -278,6 +299,7 @@
     background: url(img/shadow1.png);
     background-size: 100% 100%;
     padding-bottom: 22px;
+    margin-top: 30px;
 }
 .contact_row{
     text-align: center;
@@ -288,6 +310,7 @@
     font-family: 'Poppins', sans-serif;
     margin-top: 77px;
     margin-bottom: 22px;
+    color: #333;
 
 }
 .contact_row button a{
@@ -296,6 +319,21 @@
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
+}
+.contact_row button a:hover{
+    padding-bottom:5px;
+
+}
+.contact_row_area{
+    background-size: 100% 100%;
+    margin-top: 40px;
+    background: rgb(221, 221, 221);
+
+}
+.should_we_area{
+    background: #ddd;
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
 
 .copyright{}
@@ -319,7 +357,8 @@
 }
 .designed p a{}
 .scroll_to_up{
-    text-align:center;
+    text-align: center;
+    margin-top: 50px;
 }
 .scroll_to_up a i{
     background: #36a4e4;
@@ -329,6 +368,10 @@
     color: #fff;
     border-radius: 36px 36px 0px 0px;
     margin-bottom: 0px;
+    transition:3s;
+}
+.scroll_to_up a i:hover{
+
 }
 .scroll_up_area{
     border-bottom: 4px solid #38a4dd;
@@ -336,6 +379,6 @@
 .footer_section{
     background:#ddd;
 }
-.{}
+
 .{}
 .{}
