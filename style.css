@@ -2,16 +2,19 @@
     overflow:hidden;
 
 }
+body{
+    background:url(img/3.png)repeat center center;
+
+}
 
 .we_provide_header{
-    margin-bottom: 26px;
+    margin-bottom: 10px;
 }
 .we_provide_header h2{
     text-align: center;
     color: #333;
     text-transform: uppercase;
     font-size: 26px;
-    padding-bottom: 7px;
     font-family: 'Dosis', sans-serif;
 }
 /*
@@ -92,19 +95,24 @@
     list-style: none;
     margin-left: 10px;
 }
-.contact_info ul li{}
+.contact_info ul li{
+    line-height: 15px;
+}
 .contact_info ul li i{
-    color: #555656;
+    color: #333333;
     font-size: 15px;
     float: left;
     margin-right: 10px;
-    margin-top: 4px;
-    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 45px;
 }
 .contact_info ul li p{
     text-align: right;
     margin-right: 10px;
     color: #555656;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 }
 .courses_area{
     margin-top: 30px;
@@ -117,10 +125,30 @@
 
 
 }
+.courses_list ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 12px;
+}
+.courses_list ul li{}
+.courses_list ul li a{
+
+
+}
+.courses_list{
+    padding-bottom:5px;
+}
 .left_sidebar{
     background: #ddd;
     border: 1px solid rgb(140, 138, 138);
     padding: 5px;
+}
+.upcoming_events{
+
+}
+.upcoming_events a{}
+.upcoming_events img{
+    width:100%;
 }
 .title{
     background: #333333;
@@ -142,8 +170,10 @@
     border: 1px solid rgb(140, 138, 138);
     padding: 5px;
 }
-.working_info_details{
-
+.working_info_details ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
 }
 .working_info_details p{
     padding: 5px;
@@ -153,10 +183,7 @@
     background: rgba(255, 255, 255, 0.72);
     margin-bottom: 5px;
 }
-.bg{
-    background: #ddd;
 
-}
 .social_media{
     float:right;
 }
@@ -217,6 +244,7 @@
 }
 .courses_list ul li a{
     color: #333;
+    font-family: 'Poppins', sans-serif;
 
 }
 .header_logo_social_media{
@@ -303,35 +331,41 @@
 }
 .contact_row{
     text-align: center;
-    margin-bottom:100px;
+    margin-bottom: 100px;
+    background: rgb(51, 51, 51);
+    padding-bottom: 26px;
+
 
 }
 .contact_row h2{
     font-family: 'Poppins', sans-serif;
     margin-top: 77px;
     margin-bottom: 22px;
-    color: #333;
+    color: #fff;
 
+}
+.contact_row button{
+    background: #36a4e4;
+    border: none;
+    border-radius: 4px;
 }
 .contact_row button a{
     background: #36a4e4;
-    padding: 5px 17px;
+    padding: 11px 21px;
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
+    display: block;
 }
 .contact_row button a:hover{
-    padding-bottom:5px;
+
 
 }
 .contact_row_area{
-    background-size: 100% 100%;
-    margin-top: 40px;
-    background: rgb(221, 221, 221);
+
 
 }
 .should_we_area{
-    background: #ddd;
     padding-top: 90px;
     padding-bottom: 100px;
 }
